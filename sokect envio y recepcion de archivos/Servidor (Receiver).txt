@@ -1,0 +1,56 @@
+using System;
+using System.IO;
+using System.Net;
+using System.Net.Sockets;
+
+class Program
+{
+    static void Main()
+    {
+        TcpListener listener = new TcpListener(IPAddress.Any, 12345);
+        listener.Start();
+
+        Console.WriteLine("Esperando conexión...");
+
+        using (TcpClient client = listener.AcceptTcpClient())
+        using (NetworkStream stream = client.GetStream())
+        {
+            Console.WriteLine("Conexión aceptada. Recibiendo archivos...");
+
+            // Directorio de destino
+            string destinationDirectory = "C:\\DirectorioDestino";
+
+            // Lee el número de archivos
+            int filesCount = BitConverter.ToInt32(ReadFromStream(stream, 4), 0);
+
+            for (int i = 0; i < filesCount; i++)
+            {
+                // Lee el nombre del archivo
+                string fileName = ReadStringFromStream(stream);
+
+                // Lee el tamaño del archivo
+                int fileSize = BitConverter.ToInt32(ReadFromStream(stream, 4), 0);
+
+                // Lee y guarda el archivo
+                byte[] fileData = ReadFromStream(stream, fileSize);
+                File.WriteAllBytes(Path.Combine(destinationDirectory, fileName), fileData);
+            }
+
+            Console.WriteLine("Archivos recibidos correctamente.");
+        }
+    }
+
+    static byte[] ReadFromStream(NetworkStream stream, int bytesToRead)
+    {
+        byte[] buffer = new byte[bytesToRead];
+        stream.Read(buffer, 0, bytesToRead);
+        return buffer;
+    }
+
+    static string ReadStringFromStream(NetworkStream stream)
+    {
+        int stringLength = BitConverter.ToInt32(ReadFromStream(stream, 4), 0);
+        byte[] stringBytes = ReadFromStream(stream, stringLength);
+        return System.Text.Encoding.UTF8.GetString(stringBytes);
+    }
+}

@@ -1,0 +1,74 @@
+﻿<Page x:Name="frmUsuario" x:Class="WpfAppTickets.view.frmUsuarios"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfAppTickets.view"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1200"
+      Title="Usuarios" Loaded="frmUsuarios_Loaded">
+
+    <Grid>
+        <Grid Background="#f1f3f5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="81"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="400*"/>
+                <ColumnDefinition Width="133*"/>
+            </Grid.ColumnDefinitions>
+            <DataGrid x:Name="grdUsuarios" AutoGenerateColumns="False" Margin="10,10,10,10" Grid.Row="1" CanUserResizeColumns="True" CanUserAddRows="False" TabIndex="1">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="id" Visibility="Hidden" Binding="{Binding id}" IsReadOnly="True" FontSize="16" MinWidth="10"/>
+                    <DataGridTextColumn Header="Usuario" Binding="{Binding login}" IsReadOnly="True" FontSize="16" Width="*"/>
+                    <DataGridTextColumn Header="Contraseña" Binding="{Binding pass}" IsReadOnly="True" FontSize="16" Width="*"/>
+                    <DataGridTemplateColumn Header="ver" Width="32">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button x:Name="btnVerContraseña" Click="btnVerContraseña_Click">Ver</Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn Header="Empleado" Binding="{Binding nombres}" IsReadOnly="True" FontSize="16" Width="*"/>
+                    <DataGridTextColumn Header="Nivel" Binding="{Binding nivel}" IsReadOnly="True" FontSize="16" Width="*"/>
+                    <DataGridTextColumn Header="Estado" Binding="{Binding estado}" IsReadOnly="True" FontSize="16" Width="*"/>
+                    <DataGridTemplateColumn Header="Seleccionar" Width="*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button x:Name="btnSeleccionar" Click="btnSeleccionar_Click">Seleccionar</Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn Header="idPersonal" Visibility="Hidden" Binding="{Binding idPersonal}" IsReadOnly="True" FontSize="16" MinWidth="10"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Label Content="Usuario" VerticalAlignment="Top" FontSize="18" FontWeight="DemiBold" Height="32" Margin="10,4,10,0" RenderTransformOrigin="3.373,4.661" Grid.Row="1" Grid.Column="1" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+            <TextBox x:Name="txtUsuario" Grid.Row="1" MaxLines="1" MaxLength="20" Height="32" TextWrapping="Wrap" FontSize="18" VerticalContentAlignment="Center" Margin="10,41,10,0" Grid.Column="1" VerticalAlignment="Top" TabIndex="2"/>
+            <Label Content="Contraseña" VerticalAlignment="Top" FontSize="18" FontWeight="DemiBold" Height="32" Margin="10,78,10,0" RenderTransformOrigin="3.373,4.661" Grid.Row="1" Grid.Column="1" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+            <Label Content="Nivel" VerticalAlignment="Top" FontSize="18" FontWeight="DemiBold" Height="32" Margin="10,303,10,0" RenderTransformOrigin="3.373,4.661" Grid.Row="1" Grid.Column="1" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+            <CheckBox x:Name="chkEstado" Grid.Row="1" Content="Activo" Height="32" FontSize="14" VerticalContentAlignment="Center" Margin="10,419,10,0" Grid.Column="1" VerticalAlignment="Top" TabIndex="7" />
+            <Button x:Name="btnGuardar" Grid.Column="1" Content="Guardar" Grid.Row="1" Height="32" Margin="10,478,150,0" VerticalAlignment="Top" Click="btnGuardar_Click" TabIndex="8"/>
+            <PasswordBox x:Name="txtPass" Grid.Row="1" MaxLength="20" Height="32" FontSize="18" VerticalContentAlignment="Center" Margin="10,115,10,0" Grid.Column="1" VerticalAlignment="Top" TabIndex="3"/>
+            <Label Content="Confirmar Contraseña" VerticalAlignment="Top" FontSize="18" FontWeight="DemiBold" Height="32" Margin="10,149,10,0" RenderTransformOrigin="3.373,4.661" Grid.Row="1" Grid.Column="1" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+            <PasswordBox x:Name="txtConfirmPass" Grid.Row="1" MaxLength="20" Height="32" FontSize="18" VerticalContentAlignment="Center" Margin="10,187,10,0" Grid.Column="1" VerticalAlignment="Top" TabIndex="4"/>
+            <Label Content="Empleado" VerticalAlignment="Top" FontSize="18" FontWeight="DemiBold" Height="32" Margin="10,225,10,0" RenderTransformOrigin="3.373,4.661" Grid.Row="1" Grid.Column="1" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+            <ComboBox x:Name="cmbEmpleado" Grid.Column="1" Height="32" IsEditable="True" Margin="10,265,10,0" Grid.Row="1" VerticalAlignment="Top" VerticalContentAlignment="Center" FontSize="18" TabIndex="5"/>
+            <ComboBox x:Name="cmbNivel" Grid.Column="1" Height="32" Margin="10,342,10,0" Grid.Row="1" VerticalAlignment="Top" VerticalContentAlignment="Center" FontSize="18" TabIndex="6">
+                <ComboBoxItem Content="Usuario"/>
+                <ComboBoxItem Content="Administrador"/>
+            </ComboBox>
+            <Label Content="Estado" VerticalAlignment="Top" FontSize="18" FontWeight="DemiBold" Height="32" Margin="10,381,10,0" RenderTransformOrigin="3.373,4.661" Grid.Row="1" Grid.Column="1" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+            <Button x:Name="btnCancelar" Content="Cancelar" Height="32" VerticalAlignment="Top" Grid.Column="1" Margin="154,478,6,0" Grid.Row="1" Click="btnCancelar_Click" TabIndex="9"/>
+            <Image x:Name="imgClose" Margin="266,5,9,29" Source="/images/Close.png" RenderTransformOrigin="24.864,0.684" Grid.Column="1" MouseDown="imgClose_MouseDown" ToolTip="Cerrar" />
+            <Label Content="Buscar usuario" HorizontalAlignment="Left" VerticalAlignment="Top" Width="138" FontSize="18" FontWeight="Bold" Height="32" Margin="10,4,0,0"/>
+            <TextBox x:Name="txtBuscarUsuario" TextWrapping="Wrap" FontSize="18" VerticalContentAlignment="Center" Margin="10,38,50,11" Height="32" TextChanged="txtBuscarUsuario_TextChanged" TabIndex="0"/>
+            <Button x:Name="btnClear" ToolTip="Borrar búsqueda" Margin="0,38,12,11" Width="32" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Right" Height="32" Click="btnClear_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/images/clear.png"/>
+                </Button.Background>
+            </Button>
+
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,115 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Proyectos-C-Sharp\\VerticalMenu Original\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB64B3D-43DE-4DE3-AB0E-C808ECA99CAB}|VerticalMenu\\VerticalMenu.csproj|e:\\proyectos-c-sharp\\verticalmenu original\\verticalmenu\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5EB64B3D-43DE-4DE3-AB0E-C808ECA99CAB}|VerticalMenu\\VerticalMenu.csproj|solutionrelative:verticalmenu\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB64B3D-43DE-4DE3-AB0E-C808ECA99CAB}|VerticalMenu\\VerticalMenu.csproj|e:\\proyectos-c-sharp\\verticalmenu original\\verticalmenu\\resources\\menuitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5EB64B3D-43DE-4DE3-AB0E-C808ECA99CAB}|VerticalMenu\\VerticalMenu.csproj|solutionrelative:verticalmenu\\resources\\menuitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB64B3D-43DE-4DE3-AB0E-C808ECA99CAB}|VerticalMenu\\VerticalMenu.csproj|E:\\Proyectos-C-Sharp\\VerticalMenu Original\\verticalmenu\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{5EB64B3D-43DE-4DE3-AB0E-C808ECA99CAB}|VerticalMenu\\VerticalMenu.csproj|solutionrelative:verticalmenu\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB64B3D-43DE-4DE3-AB0E-C808ECA99CAB}|VerticalMenu\\VerticalMenu.csproj|E:\\Proyectos-C-Sharp\\VerticalMenu Original\\verticalmenu\\principal.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{5EB64B3D-43DE-4DE3-AB0E-C808ECA99CAB}|VerticalMenu\\VerticalMenu.csproj|solutionrelative:verticalmenu\\principal.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB64B3D-43DE-4DE3-AB0E-C808ECA99CAB}|VerticalMenu\\VerticalMenu.csproj|E:\\Proyectos-C-Sharp\\VerticalMenu Original\\verticalmenu\\resources\\mainstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5EB64B3D-43DE-4DE3-AB0E-C808ECA99CAB}|VerticalMenu\\VerticalMenu.csproj|solutionrelative:verticalmenu\\resources\\mainstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB64B3D-43DE-4DE3-AB0E-C808ECA99CAB}|VerticalMenu\\VerticalMenu.csproj|E:\\Proyectos-C-Sharp\\VerticalMenu Original\\verticalmenu\\principal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5EB64B3D-43DE-4DE3-AB0E-C808ECA99CAB}|VerticalMenu\\VerticalMenu.csproj|solutionrelative:verticalmenu\\principal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Proyectos-C-Sharp\\VerticalMenu Original\\VerticalMenu\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "VerticalMenu\\MainWindow.xaml",
+              "ToolTip": "E:\\Proyectos-C-Sharp\\VerticalMenu Original\\VerticalMenu\\MainWindow.xaml",
+              "RelativeToolTip": "VerticalMenu\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-27T22:37:04.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuItem.xaml",
+              "DocumentMoniker": "E:\\Proyectos-C-Sharp\\VerticalMenu Original\\VerticalMenu\\Resources\\MenuItem.xaml",
+              "RelativeDocumentMoniker": "VerticalMenu\\Resources\\MenuItem.xaml",
+              "ToolTip": "E:\\Proyectos-C-Sharp\\VerticalMenu Original\\VerticalMenu\\Resources\\MenuItem.xaml",
+              "RelativeToolTip": "VerticalMenu\\Resources\\MenuItem.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-08T03:03:32.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Proyectos-C-Sharp\\VerticalMenu Original\\VerticalMenu\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "VerticalMenu\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\Proyectos-C-Sharp\\VerticalMenu Original\\VerticalMenu\\MainWindow.xaml.cs",
+              "RelativeToolTip": "VerticalMenu\\MainWindow.xaml.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowEYAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T05:28:07.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Principal.xaml.cs",
+              "DocumentMoniker": "E:\\Proyectos-C-Sharp\\VerticalMenu Original\\VerticalMenu\\Principal.xaml.cs",
+              "RelativeDocumentMoniker": "VerticalMenu\\Principal.xaml.cs",
+              "ToolTip": "E:\\Proyectos-C-Sharp\\VerticalMenu Original\\VerticalMenu\\Principal.xaml.cs",
+              "RelativeToolTip": "VerticalMenu\\Principal.xaml.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAmwEMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T01:03:24.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainStyle.xaml",
+              "DocumentMoniker": "E:\\Proyectos-C-Sharp\\VerticalMenu Original\\VerticalMenu\\Resources\\MainStyle.xaml",
+              "RelativeDocumentMoniker": "VerticalMenu\\Resources\\MainStyle.xaml",
+              "ToolTip": "E:\\Proyectos-C-Sharp\\VerticalMenu Original\\VerticalMenu\\Resources\\MainStyle.xaml",
+              "RelativeToolTip": "VerticalMenu\\Resources\\MainStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-29T18:56:32.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Principal.xaml",
+              "DocumentMoniker": "E:\\Proyectos-C-Sharp\\VerticalMenu Original\\VerticalMenu\\Principal.xaml",
+              "RelativeDocumentMoniker": "VerticalMenu\\Principal.xaml",
+              "ToolTip": "E:\\Proyectos-C-Sharp\\VerticalMenu Original\\VerticalMenu\\Principal.xaml",
+              "RelativeToolTip": "VerticalMenu\\Principal.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-29T18:49:18.586Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

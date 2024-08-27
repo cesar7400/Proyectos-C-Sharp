@@ -1,0 +1,66 @@
+﻿<Window x:Class="WpfAppTickets.view.frmMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppTickets.view"
+        mc:Ignorable="d"
+        Title="Principal" Height="600" Width="1200"
+        WindowStartupLocation="CenterScreen" Closing="Window_Closing">
+    <Grid x:Name="gridSideBar" Background="#FF2E333A">
+        <Grid.ColumnDefinitions >
+            <ColumnDefinition x:Name="gridSlide" Width="80"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Image x:Name="btnMenu" Margin="0,10,0,0" VerticalAlignment="Top" Height="64" Width="64" Source="/images/tgBtn_default.png" MouseDown="btnMenu_MouseDown">
+        </Image>
+        <Frame Grid.Column="1" BorderBrush="Black" BorderThickness="2" x:Name="navframe" NavigationUIVisibility="Hidden" Background="#e9ecef" Padding="54,0,-26,0"/>
+        <ListView Width="250" Margin="0,120,0,0" BorderThickness="0" Background="#FF2E333A" BorderBrush="#00ABADB3" >
+            <ListViewItem HorizontalAlignment="Left" Margin="0,0,0,15">
+                <StackPanel Orientation="Horizontal" Width="150" MouseDown="imgUsuarios_MouseDown">
+                    <Image x:Name="imgUsuarios" Stretch="None" Margin="1,0,0,0" Source="/images/userMenu.png" MouseDown="imgUsuarios_MouseDown"/>
+                    <TextBlock x:Name="txtUsers" Margin="10,0,0,0" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="White" FontSize="18"/>
+                </StackPanel>
+                <ListViewItem.ToolTip>
+                    <ToolTip x:Name="tt_home" Content="Usuarios"/>
+                </ListViewItem.ToolTip>
+            </ListViewItem>
+            <ListViewItem HorizontalAlignment="Left" Margin="0,0,0,15">
+                <StackPanel Orientation="Horizontal" Width="150" MouseDown="imgPersonal_MouseDown">
+                    <Image x:Name="imgPersonal" Stretch="None" Margin="1,0,0,0" Source="/images/personal.png" MouseDown="imgPersonal_MouseDown"/>
+                    <TextBlock x:Name="txtPersonal" Margin="10,0,0,0" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="White" FontSize="18"/>
+                </StackPanel>
+                <ListViewItem.ToolTip>
+                    <ToolTip x:Name="tt_Personal" Content="Personal"/>
+                </ListViewItem.ToolTip>
+            </ListViewItem>
+            <ListViewItem HorizontalAlignment="Left" Margin="0,0,0,15">
+                <StackPanel Orientation="Horizontal" Width="150" MouseDown="imgTicket_MouseDown">
+                    <Image x:Name="imgTicket" Stretch="None" Margin="1,0,0,0" Source="/images/ticket.png" MouseDown="imgTicket_MouseDown"/>
+                    <TextBlock x:Name="txtTicket" Margin="10,0,0,0" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="White" FontSize="18"/>
+                </StackPanel>
+                <ListViewItem.ToolTip>
+                    <ToolTip x:Name="tt_Ticket" Content="Ticket"/>
+                </ListViewItem.ToolTip>
+            </ListViewItem>
+            <ListViewItem HorizontalAlignment="Left" Margin="0,0,0,15">
+                <StackPanel Orientation="Horizontal" Width="180" MouseDown="imgSeguimiento_MouseDown">
+                    <Image x:Name="imgSeguimiento" Stretch="None" Margin="1,0,0,0" Source="/images/Move Up.png" MouseDown="imgSeguimiento_MouseDown"/>
+                    <TextBlock x:Name="txtSeguimiento" Margin="10,0,0,0" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="White" FontSize="18"/>
+                </StackPanel>
+                <ListViewItem.ToolTip>
+                    <ToolTip x:Name="tt_Seguimiento" Content="Seguimiento"/>
+                </ListViewItem.ToolTip>
+            </ListViewItem>
+            <ListViewItem HorizontalAlignment="Left" Margin="0,0,0,15">
+                <StackPanel Orientation="Horizontal" Width="180" MouseDown="imgSeguimiento_MouseDown">
+                    <Image x:Name="imgSalir" Stretch="None" Margin="1,0,0,0" Source="/images/exit.png" MouseDown="imgSalir_MouseDown"/>
+                    <TextBlock x:Name="txtSalir" Margin="10,0,0,0" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="White" FontSize="18"/>
+                </StackPanel>
+                <ListViewItem.ToolTip>
+                    <ToolTip x:Name="tt_Salir" Content="Cerrar sesión"/>
+                </ListViewItem.ToolTip>
+            </ListViewItem>
+        </ListView>
+    </Grid>
+</Window>

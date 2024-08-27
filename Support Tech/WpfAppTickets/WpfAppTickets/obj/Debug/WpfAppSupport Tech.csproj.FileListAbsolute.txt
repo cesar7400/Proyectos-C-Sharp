@@ -1,0 +1,75 @@
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\bin\Debug\WpfAppTickets.exe.config
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\bin\Debug\WpfAppTickets.exe
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\bin\Debug\WpfAppTickets.pdb
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppSupport Tech.csproj.AssemblyReference.cache
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmLogin.g.cs
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmMain.g.cs
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmSeguimiento.g.cs
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmTicket.g.cs
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmUsuarios.g.cs
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmPersonal.g.cs
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\App.g.cs
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets_MarkupCompile.cache
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets_MarkupCompile.lref
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmLogin.baml
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmMain.baml
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmSeguimiento.baml
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmTicket.baml
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmUsuarios.baml
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmPersonal.baml
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets.g.resources
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets.Properties.Resources.resources
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppSupport Tech.csproj.GenerateResource.cache
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppSupport Tech.csproj.CoreCompileInputs.cache
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets.exe
+E:\proyecto WPF\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets.pdb
+E:\Support Tech\WpfAppTickets\WpfAppTickets\bin\Debug\WpfAppTickets.exe.config
+E:\Support Tech\WpfAppTickets\WpfAppTickets\bin\Debug\WpfAppTickets.exe
+E:\Support Tech\WpfAppTickets\WpfAppTickets\bin\Debug\WpfAppTickets.pdb
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppSupport Tech.csproj.AssemblyReference.cache
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmLogin.g.cs
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmMain.g.cs
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmSeguimiento.g.cs
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmTicket.g.cs
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmUsuarios.g.cs
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmPersonal.g.cs
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\App.g.cs
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets_MarkupCompile.cache
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets_MarkupCompile.lref
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmLogin.baml
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmMain.baml
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmSeguimiento.baml
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmTicket.baml
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmUsuarios.baml
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmPersonal.baml
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets.g.resources
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets.Properties.Resources.resources
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppSupport Tech.csproj.GenerateResource.cache
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppSupport Tech.csproj.CoreCompileInputs.cache
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets.exe
+E:\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets.pdb
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\bin\Debug\WpfAppTickets.exe.config
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\bin\Debug\WpfAppTickets.exe
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\bin\Debug\WpfAppTickets.pdb
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppSupport Tech.csproj.AssemblyReference.cache
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmLogin.g.cs
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmMain.g.cs
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmSeguimiento.g.cs
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmTicket.g.cs
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmUsuarios.g.cs
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmPersonal.g.cs
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\App.g.cs
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets_MarkupCompile.cache
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets_MarkupCompile.lref
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmLogin.baml
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmMain.baml
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmSeguimiento.baml
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmTicket.baml
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmUsuarios.baml
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\view\frmPersonal.baml
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets.g.resources
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets.Properties.Resources.resources
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppSupport Tech.csproj.GenerateResource.cache
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppSupport Tech.csproj.CoreCompileInputs.cache
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets.exe
+E:\C#\Support Tech\WpfAppTickets\WpfAppTickets\obj\Debug\WpfAppTickets.pdb

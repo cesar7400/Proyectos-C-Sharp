@@ -1,0 +1,10 @@
+D:\Project\conexion SQL Server XML\conexion SQL Server XML\bin\Debug\conexion SQL Server XML.exe.config
+D:\Project\conexion SQL Server XML\conexion SQL Server XML\bin\Debug\conexion SQL Server XML.exe
+D:\Project\conexion SQL Server XML\conexion SQL Server XML\bin\Debug\conexion SQL Server XML.pdb
+D:\Project\conexion SQL Server XML\conexion SQL Server XML\obj\Debug\conexion SQL Server XML.csproj.AssemblyReference.cache
+D:\Project\conexion SQL Server XML\conexion SQL Server XML\obj\Debug\conexion_SQL_Server_XML.FrmConexionXMLSqlServer.resources
+D:\Project\conexion SQL Server XML\conexion SQL Server XML\obj\Debug\conexion_SQL_Server_XML.Properties.Resources.resources
+D:\Project\conexion SQL Server XML\conexion SQL Server XML\obj\Debug\conexion SQL Server XML.csproj.GenerateResource.cache
+D:\Project\conexion SQL Server XML\conexion SQL Server XML\obj\Debug\conexion SQL Server XML.csproj.CoreCompileInputs.cache
+D:\Project\conexion SQL Server XML\conexion SQL Server XML\obj\Debug\conexion SQL Server XML.exe
+D:\Project\conexion SQL Server XML\conexion SQL Server XML\obj\Debug\conexion SQL Server XML.pdb

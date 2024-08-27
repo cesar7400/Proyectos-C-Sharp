@@ -1,0 +1,73 @@
+﻿<Page x:Class="WpfAppTickets.view.frmPersonal"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:WpfAppTickets.view"
+      mc:Ignorable="d" 
+      d:DesignHeight="900" d:DesignWidth="1200"
+      Title="Personal" Loaded="Page_Loaded">
+
+    <Grid Background="#f1f3f5" RenderTransformOrigin="0.516,0.588">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48"/>
+            <RowDefinition Height="48"/>
+            <RowDefinition Height="59*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="533*"/>
+            <ColumnDefinition Width="133*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Buscar usuario" HorizontalAlignment="Left" VerticalAlignment="Center" Width="138" FontSize="18" FontWeight="Bold" Height="32" Margin="10,0,0,0" Padding="0,5,5,5"/>
+        <TextBox x:Name="txtBuscarUsuario" Grid.Row="1" TextWrapping="Wrap" FontSize="18" VerticalContentAlignment="Center" Margin="10,6,48,10" TextChanged="txtBuscarUsuario_TextChanged" TabIndex="0"/>
+        <DataGrid x:Name="grdUsuarios" AutoGenerateColumns="False" Margin="10,10,10,10" Grid.Row="2" CanUserResizeColumns="True" CanUserAddRows="False" TabIndex="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="id" Visibility="Hidden" Binding="{Binding id}" IsReadOnly="True" FontSize="16" MinWidth="10"/>
+                <DataGridTextColumn Header="Nombres" Binding="{Binding nombre}" IsReadOnly="True" FontSize="16" MinWidth="95"/>
+                <DataGridTextColumn Header="Apellidos" Binding="{Binding apellidos}" IsReadOnly="True" FontSize="16" MinWidth="95"/>
+                <DataGridTextColumn Header="Especialidad" Binding="{Binding especialidad}" IsReadOnly="True" FontSize="16" MinWidth="95"/>
+                <DataGridTextColumn Header="Fecha Ingreso" Binding="{Binding fechaIngreso}" IsReadOnly="True" FontSize="16" MinWidth="95"/>
+                <DataGridTextColumn Header="Horario" Binding="{Binding horario}" IsReadOnly="True" FontSize="16" MinWidth="95"/>
+                <DataGridTextColumn Header="Documento" Binding="{Binding documento}" IsReadOnly="True" FontSize="16" MinWidth="95"/>
+                <DataGridTextColumn Header="E-mail" Binding="{Binding mail}" IsReadOnly="True" FontSize="16" MinWidth="95"/>
+                <DataGridTextColumn Header="WhatsApp" Binding="{Binding whatsapp}" IsReadOnly="True" FontSize="16" MinWidth="95"/>
+                <DataGridTextColumn Header="Estado" Binding="{Binding estado}" IsReadOnly="True" FontSize="16" MinWidth="50"/>
+                <DataGridTemplateColumn Header="Seleccionar" Width="95">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="btnEditUsuario" Click="btnEditUsuario_Click">Seleccionar</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="btnNuevo" Grid.Column="1" Content="Nuevo" Grid.Row="2" Height="28" Margin="125,644,6,132" Click="btnNuevo_Click" VerticalAlignment="Top" TabIndex="13"/>
+        <Label Content="Apellidos" VerticalAlignment="Top" FontSize="18" FontWeight="DemiBold" Height="32" Margin="10,78,10,0" RenderTransformOrigin="3.373,4.661" Grid.Row="2" Grid.Column="1" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+        <TextBox x:Name="txtApellidos" Grid.Row="2" Height="32" TextWrapping="Wrap" FontSize="14" VerticalContentAlignment="Center" Margin="10,114,10,0" Grid.Column="1" VerticalAlignment="Top" MaxLines="1" MaxLength="20" TabIndex="4"/>
+        <Label Content="Fecha ingreso" VerticalAlignment="Top" FontSize="18" FontWeight="DemiBold" Height="32" Margin="10,221,10,0" RenderTransformOrigin="3.373,4.661" Grid.Row="2" Grid.Column="1" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+        <Label Content="Documento" VerticalAlignment="Top" FontSize="18" FontWeight="DemiBold" Height="32" Margin="10,364,10,0" RenderTransformOrigin="3.373,4.661" Grid.Row="2" Grid.Column="1" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+        <DatePicker x:Name="dpFechIngreso" Grid.Row="2" SelectedDate="{Binding YourDateProperty, Mode=TwoWay}" 
+            IsTodayHighlighted="True" Height="32" FontSize="14" VerticalContentAlignment="Center" Margin="10,257,10,0" Grid.Column="1" VerticalAlignment="Top" TabIndex="6" />
+        <TextBox x:Name="txtDocumento" Grid.Row="2" Height="32" TextWrapping="Wrap" FontSize="14" VerticalContentAlignment="Center" Margin="10,400,10,0" Grid.Column="1" VerticalAlignment="Top" MaxLines="1" MaxLength="20" PreviewTextInput="txtDocumento_PreviewTextInput" TabIndex="8" />
+        <Label Content="WhatsApp " VerticalAlignment="Top" FontSize="18" FontWeight="DemiBold" Height="32" Margin="10,504,10,0" RenderTransformOrigin="3.373,4.661" Grid.Row="2" Grid.Column="1" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+        <TextBox x:Name="txtEmail" Grid.Row="2" Height="32" TextWrapping="Wrap" FontSize="14" VerticalContentAlignment="Center" Margin="10,468,9,0" Grid.Column="1" VerticalAlignment="Top" MaxLines="1" MaxLength="30" LostFocus="txtEmail_LostFocus" TabIndex="9"/>
+        <Button x:Name="btnGuardar" Grid.Column="1" Content="Guardar" Grid.Row="2" Height="28" Margin="10,644,120,0" VerticalAlignment="Top" Click="btnGuardar_Click" TabIndex="12" />
+        <Button x:Name="btnClear" Grid.Row="1" Height="32" ToolTip="Borrar búsqueda" Margin="0,6,11,10" Width="32" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Right" Click="btnClear_Click" TabIndex="1">
+            <Button.Background>
+                <ImageBrush ImageSource="/images/clear.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Nombres" VerticalAlignment="Top" FontSize="18" FontWeight="DemiBold" Height="32" Margin="10,7,10,0" RenderTransformOrigin="3.373,4.661" Grid.Row="2" Grid.Column="1" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+        <TextBox x:Name="txtNombres" Grid.Row="2" MaxLines="1" MaxLength="20" Height="32" TextWrapping="Wrap" FontSize="14" VerticalContentAlignment="Center" Margin="10,42,10,0" Grid.Column="1" VerticalAlignment="Top" TabIndex="3"/>
+        <Label Content="Especialidad" VerticalAlignment="Top" FontSize="18" FontWeight="DemiBold" Height="32" Margin="10,149,10,0" RenderTransformOrigin="3.373,4.661" Grid.Row="2" Grid.Column="1" VerticalContentAlignment="Center" Padding="0,0,0,0" ScrollViewer.CanContentScroll="True"/>
+        <TextBox x:Name="txtEspecialidad" Grid.Row="2" Height="32" TextWrapping="Wrap" FontSize="14" VerticalContentAlignment="Center" Margin="10,185,10,0" Grid.Column="1" VerticalAlignment="Top" MaxLines="1" MaxLength="20" TabIndex="5"/>
+        <Label Content="Horario" VerticalAlignment="Top" FontSize="18" FontWeight="DemiBold" Height="32" Margin="10,293,10,0" RenderTransformOrigin="3.373,4.661" Grid.Row="2" Grid.Column="1" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+        <TextBox x:Name="txtHorario" Grid.Row="2" Height="32" TextWrapping="Wrap" FontSize="14" VerticalContentAlignment="Center" Margin="10,328,10,0" Grid.Column="1" VerticalAlignment="Top" MaxLines="1" MaxLength="20" TabIndex="7"/>
+        <Label Content="E-Mail" VerticalAlignment="Top" FontSize="18" FontWeight="DemiBold" Height="32" Margin="10,436,10,0" RenderTransformOrigin="3.373,4.661" Grid.Row="2" Grid.Column="1" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+        <Label Content="Estado" VerticalAlignment="Top" FontSize="18" FontWeight="DemiBold" Height="32" Margin="10,576,10,0" RenderTransformOrigin="3.373,4.661" Grid.Row="2" Grid.Column="1" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+        <TextBox x:Name="txtWhatsApp" Grid.Row="2" Height="32" TextWrapping="Wrap" FontSize="14" VerticalContentAlignment="Center" Margin="10,539,10,0" Grid.Column="1" VerticalAlignment="Top" MaxLines="1" MaxLength="10" PreviewTextInput="txtWhatsApp_PreviewTextInput" LostFocus="txtWhatsApp_LostFocus" GotFocus="txtWhatsApp_GotFocus" TabIndex="10"/>
+        <CheckBox x:Name="chkActivo" Content="Activo" Grid.Row="2" Height="32" FontSize="14" VerticalContentAlignment="Center" Margin="10,612,10,0" Grid.Column="1" VerticalAlignment="Top" TabIndex="11" />
+        <Image x:Name="imgClose" Margin="213,1,2,0" Source="/images/Close.png" RenderTransformOrigin="24.864,0.684" Grid.Column="1" ToolTip="Cerrar" MouseDown="imgClose_MouseDown" />
+
+    </Grid>
+</Page>

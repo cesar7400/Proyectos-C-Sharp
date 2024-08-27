@@ -1,0 +1,52 @@
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\VerticalMenu.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\Resources\MainStyle.baml
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\MainWindow.g.cs
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\Principal.g.cs
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\Resources\MenuItem.g.cs
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\Resources\UserPopup.g.cs
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\App.g.cs
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\VerticalMenu_MarkupCompile.cache
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\VerticalMenu_MarkupCompile.lref
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\bin\Debug\VerticalMenu.exe.config
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\bin\Debug\VerticalMenu.exe
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\bin\Debug\VerticalMenu.pdb
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\bin\Debug\PresentationFramework.Aero2.dll
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\App.baml
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\MainWindow.baml
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\Principal.baml
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\Resources\MenuItem.baml
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\Resources\UserPopup.baml
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\VerticalMenu.g.resources
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\VerticalMenu.Properties.Resources.resources
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\VerticalMenu.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\VerticalMenu.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\Vertical.D7388D14.Up2Date
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\VerticalMenu.exe
+C:\Users\PC\Desktop\VerticalMenu\VerticalMenu\obj\Debug\VerticalMenu.pdb
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\bin\Debug\VerticalMenu.exe.config
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\bin\Debug\VerticalMenu.exe
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\bin\Debug\VerticalMenu.pdb
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\bin\Debug\PresentationFramework.Aero2.dll
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\VerticalMenu.csproj.AssemblyReference.cache
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\Resources\MainStyle.baml
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\MainWindow.g.cs
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\Principal.g.cs
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\Resources\MenuItem.g.cs
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\Resources\UserPopup.g.cs
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\App.g.cs
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\VerticalMenu_MarkupCompile.cache
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\VerticalMenu_MarkupCompile.lref
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\App.baml
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\MainWindow.baml
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\Principal.baml
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\Resources\MenuItem.baml
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\Resources\UserPopup.baml
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\VerticalMenu.g.resources
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\VerticalMenu.Properties.Resources.resources
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\VerticalMenu.csproj.GenerateResource.cache
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\VerticalMenu.csproj.CoreCompileInputs.cache
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\Vertical.D7388D14.Up2Date
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\VerticalMenu.exe
+E:\C#\sidebar menu WPF\VerticalMenu Original\VerticalMenu\obj\Debug\VerticalMenu.pdb

@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C#\\Support Tech\\WpfAppTickets\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05B07466-398B-4E95-917A-75C2CEBEA44B}|WpfAppTickets\\WpfAppSupport Tech.csproj|E:\\C#\\Support Tech\\WpfAppTickets\\wpfapptickets\\view\\frmusuarios.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{05B07466-398B-4E95-917A-75C2CEBEA44B}|WpfAppTickets\\WpfAppSupport Tech.csproj|solutionrelative:wpfapptickets\\view\\frmusuarios.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05B07466-398B-4E95-917A-75C2CEBEA44B}|WpfAppTickets\\WpfAppSupport Tech.csproj|e:\\c#\\support tech\\wpfapptickets\\wpfapptickets\\view\\frmmain.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{05B07466-398B-4E95-917A-75C2CEBEA44B}|WpfAppTickets\\WpfAppSupport Tech.csproj|solutionrelative:wpfapptickets\\view\\frmmain.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05B07466-398B-4E95-917A-75C2CEBEA44B}|WpfAppTickets\\WpfAppSupport Tech.csproj|E:\\C#\\Support Tech\\WpfAppTickets\\wpfapptickets\\controller\\clsusuario.controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05B07466-398B-4E95-917A-75C2CEBEA44B}|WpfAppTickets\\WpfAppSupport Tech.csproj|solutionrelative:wpfapptickets\\controller\\clsusuario.controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05B07466-398B-4E95-917A-75C2CEBEA44B}|WpfAppTickets\\WpfAppSupport Tech.csproj|E:\\C#\\Support Tech\\WpfAppTickets\\wpfapptickets\\model\\clsusuario.model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05B07466-398B-4E95-917A-75C2CEBEA44B}|WpfAppTickets\\WpfAppSupport Tech.csproj|solutionrelative:wpfapptickets\\model\\clsusuario.model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05B07466-398B-4E95-917A-75C2CEBEA44B}|WpfAppTickets\\WpfAppSupport Tech.csproj|E:\\C#\\Support Tech\\WpfAppTickets\\wpfapptickets\\model\\clspersonal.model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05B07466-398B-4E95-917A-75C2CEBEA44B}|WpfAppTickets\\WpfAppSupport Tech.csproj|solutionrelative:wpfapptickets\\model\\clspersonal.model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05B07466-398B-4E95-917A-75C2CEBEA44B}|WpfAppTickets\\WpfAppSupport Tech.csproj|E:\\C#\\Support Tech\\WpfAppTickets\\wpfapptickets\\model\\clsconexion.model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05B07466-398B-4E95-917A-75C2CEBEA44B}|WpfAppTickets\\WpfAppSupport Tech.csproj|solutionrelative:wpfapptickets\\model\\clsconexion.model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMain.xaml.cs",
+              "DocumentMoniker": "E:\\C#\\Support Tech\\WpfAppTickets\\WpfAppTickets\\view\\frmMain.xaml.cs",
+              "RelativeDocumentMoniker": "WpfAppTickets\\view\\frmMain.xaml.cs",
+              "ToolTip": "E:\\C#\\Support Tech\\WpfAppTickets\\WpfAppTickets\\view\\frmMain.xaml.cs",
+              "RelativeToolTip": "WpfAppTickets\\view\\frmMain.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwCkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T23:47:45.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClsUsuario.controller.cs",
+              "DocumentMoniker": "E:\\C#\\Support Tech\\WpfAppTickets\\WpfAppTickets\\controller\\ClsUsuario.controller.cs",
+              "RelativeDocumentMoniker": "WpfAppTickets\\controller\\ClsUsuario.controller.cs",
+              "ToolTip": "E:\\C#\\Support Tech\\WpfAppTickets\\WpfAppTickets\\controller\\ClsUsuario.controller.cs",
+              "RelativeToolTip": "WpfAppTickets\\controller\\ClsUsuario.controller.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowDcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T19:29:52.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmUsuarios.xaml.cs",
+              "DocumentMoniker": "E:\\C#\\Support Tech\\WpfAppTickets\\WpfAppTickets\\view\\frmUsuarios.xaml.cs",
+              "RelativeDocumentMoniker": "WpfAppTickets\\view\\frmUsuarios.xaml.cs",
+              "ToolTip": "E:\\C#\\Support Tech\\WpfAppTickets\\WpfAppTickets\\view\\frmUsuarios.xaml.cs",
+              "RelativeToolTip": "WpfAppTickets\\view\\frmUsuarios.xaml.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAuwJgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T00:04:40.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClsConexion.model.cs",
+              "DocumentMoniker": "E:\\C#\\Support Tech\\WpfAppTickets\\WpfAppTickets\\model\\ClsConexion.model.cs",
+              "RelativeDocumentMoniker": "WpfAppTickets\\model\\ClsConexion.model.cs",
+              "ToolTip": "E:\\C#\\Support Tech\\WpfAppTickets\\WpfAppTickets\\model\\ClsConexion.model.cs",
+              "RelativeToolTip": "WpfAppTickets\\model\\ClsConexion.model.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:28:18.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClsPersonal.model.cs",
+              "DocumentMoniker": "E:\\C#\\Support Tech\\WpfAppTickets\\WpfAppTickets\\model\\ClsPersonal.model.cs",
+              "RelativeDocumentMoniker": "WpfAppTickets\\model\\ClsPersonal.model.cs",
+              "ToolTip": "E:\\C#\\Support Tech\\WpfAppTickets\\WpfAppTickets\\model\\ClsPersonal.model.cs",
+              "RelativeToolTip": "WpfAppTickets\\model\\ClsPersonal.model.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:23:25.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClsUsuario.Model.cs",
+              "DocumentMoniker": "E:\\C#\\Support Tech\\WpfAppTickets\\WpfAppTickets\\model\\ClsUsuario.Model.cs",
+              "RelativeDocumentMoniker": "WpfAppTickets\\model\\ClsUsuario.Model.cs",
+              "ToolTip": "E:\\C#\\Support Tech\\WpfAppTickets\\WpfAppTickets\\model\\ClsUsuario.Model.cs",
+              "RelativeToolTip": "WpfAppTickets\\model\\ClsUsuario.Model.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAnwGsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T03:21:51.919Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

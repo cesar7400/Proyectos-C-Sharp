@@ -1,0 +1,52 @@
+using System;
+using System.IO;
+using System.Net.Sockets;
+
+class Program
+{
+    static void Main()
+    {
+        using (TcpClient client = new TcpClient("127.0.0.1", 12345))
+        using (NetworkStream stream = client.GetStream())
+        {
+            // Directorio de origen
+            string sourceDirectory = "C:\\DirectorioOrigen";
+
+            // Lista de archivos en el directorio
+            string[] files = Directory.GetFiles(sourceDirectory);
+
+            // Envía el número de archivos
+            byte[] filesCountBytes = BitConverter.GetBytes(files.Length);
+            stream.Write(filesCountBytes, 0, filesCountBytes.Length);
+
+            foreach (var filePath in files)
+            {
+                // Obtiene el nombre del archivo
+                string fileName = Path.GetFileName(filePath);
+
+                // Envía el nombre del archivo
+                SendString(stream, fileName);
+
+                // Obtiene el contenido del archivo
+                byte[] fileData = File.ReadAllBytes(filePath);
+
+                // Envía el tamaño del archivo
+                byte[] fileSizeBytes = BitConverter.GetBytes(fileData.Length);
+                stream.Write(fileSizeBytes, 0, fileSizeBytes.Length);
+
+                // Envía el contenido del archivo
+                stream.Write(fileData, 0, fileData.Length);
+            }
+
+            Console.WriteLine("Archivos enviados correctamente.");
+        }
+    }
+
+    static void SendString(NetworkStream stream, string data)
+    {
+        byte[] dataLengthBytes = BitConverter.GetBytes(data.Length);
+        stream.Write(dataLengthBytes, 0, dataLengthBytes.Length);
+        byte[] dataBytes = System.Text.Encoding.UTF8.GetBytes(data);
+        stream.Write(dataBytes, 0, dataBytes.Length);
+    }
+}

@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\conexion SQL Server XML\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C72A333-709D-48F7-83CB-CDAEAD2CBB24}|conexion SQL Server XML\\conexion SQL Server XML.csproj|d:\\project\\conexion sql server xml\\conexion sql server xml\\desencryptacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C72A333-709D-48F7-83CB-CDAEAD2CBB24}|conexion SQL Server XML\\conexion SQL Server XML.csproj|solutionrelative:conexion sql server xml\\desencryptacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C72A333-709D-48F7-83CB-CDAEAD2CBB24}|conexion SQL Server XML\\conexion SQL Server XML.csproj|D:\\Project\\conexion SQL Server XML\\conexion sql server xml\\encryptacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C72A333-709D-48F7-83CB-CDAEAD2CBB24}|conexion SQL Server XML\\conexion SQL Server XML.csproj|solutionrelative:conexion sql server xml\\encryptacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C72A333-709D-48F7-83CB-CDAEAD2CBB24}|conexion SQL Server XML\\conexion SQL Server XML.csproj|D:\\Project\\conexion SQL Server XML\\conexion sql server xml\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C72A333-709D-48F7-83CB-CDAEAD2CBB24}|conexion SQL Server XML\\conexion SQL Server XML.csproj|solutionrelative:conexion sql server xml\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C72A333-709D-48F7-83CB-CDAEAD2CBB24}|conexion SQL Server XML\\conexion SQL Server XML.csproj|D:\\Project\\conexion SQL Server XML\\conexion sql server xml\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7C72A333-709D-48F7-83CB-CDAEAD2CBB24}|conexion SQL Server XML\\conexion SQL Server XML.csproj|solutionrelative:conexion sql server xml\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Desencryptacion.cs",
+              "DocumentMoniker": "D:\\Project\\conexion SQL Server XML\\conexion SQL Server XML\\Desencryptacion.cs",
+              "RelativeDocumentMoniker": "conexion SQL Server XML\\Desencryptacion.cs",
+              "ToolTip": "D:\\Project\\conexion SQL Server XML\\conexion SQL Server XML\\Desencryptacion.cs",
+              "RelativeToolTip": "conexion SQL Server XML\\Desencryptacion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T21:25:52.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Project\\conexion SQL Server XML\\conexion SQL Server XML\\Form1.cs",
+              "RelativeDocumentMoniker": "conexion SQL Server XML\\Form1.cs",
+              "ToolTip": "D:\\Project\\conexion SQL Server XML\\conexion SQL Server XML\\Form1.cs",
+              "RelativeToolTip": "conexion SQL Server XML\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T00:45:06.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Encryptacion.cs",
+              "DocumentMoniker": "D:\\Project\\conexion SQL Server XML\\conexion SQL Server XML\\Encryptacion.cs",
+              "RelativeDocumentMoniker": "conexion SQL Server XML\\Encryptacion.cs",
+              "ToolTip": "D:\\Project\\conexion SQL Server XML\\conexion SQL Server XML\\Encryptacion.cs",
+              "RelativeToolTip": "conexion SQL Server XML\\Encryptacion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T00:43:40.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Project\\conexion SQL Server XML\\conexion SQL Server XML\\Form1.cs",
+              "RelativeDocumentMoniker": "conexion SQL Server XML\\Form1.cs",
+              "ToolTip": "D:\\Project\\conexion SQL Server XML\\conexion SQL Server XML\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "conexion SQL Server XML\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T00:30:35.535Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

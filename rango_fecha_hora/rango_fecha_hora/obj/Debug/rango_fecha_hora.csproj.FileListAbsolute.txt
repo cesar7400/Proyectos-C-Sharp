@@ -1,0 +1,10 @@
+C:\Users\PC\source\repos\rango_fecha_hora\rango_fecha_hora\bin\Debug\rango_fecha_hora.exe.config
+C:\Users\PC\source\repos\rango_fecha_hora\rango_fecha_hora\bin\Debug\rango_fecha_hora.exe
+C:\Users\PC\source\repos\rango_fecha_hora\rango_fecha_hora\bin\Debug\rango_fecha_hora.pdb
+C:\Users\PC\source\repos\rango_fecha_hora\rango_fecha_hora\obj\Debug\rango_fecha_hora.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\rango_fecha_hora\rango_fecha_hora\obj\Debug\rango_fecha_hora.Form1.resources
+C:\Users\PC\source\repos\rango_fecha_hora\rango_fecha_hora\obj\Debug\rango_fecha_hora.Properties.Resources.resources
+C:\Users\PC\source\repos\rango_fecha_hora\rango_fecha_hora\obj\Debug\rango_fecha_hora.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\rango_fecha_hora\rango_fecha_hora\obj\Debug\rango_fecha_hora.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\rango_fecha_hora\rango_fecha_hora\obj\Debug\rango_fecha_hora.exe
+C:\Users\PC\source\repos\rango_fecha_hora\rango_fecha_hora\obj\Debug\rango_fecha_hora.pdb
